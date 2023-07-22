@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sqlithree"
+version = "0.1.0"
+description = "SQLAlchemy Dialect for SQlite on AWS S3"
+authors = ["Cristian Angulo Nova <cristianangulonova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
