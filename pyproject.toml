@@ -7,7 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+boto3 = "^1.28.9"
+botocore = "^1.31.9"
+pydantic = "^2.0.3"
+pydantic-settings = "^2.0.2"
+sqlalchemy = "^2.0.19"
+sqlalchemy-s3sqlite = "^0.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]
